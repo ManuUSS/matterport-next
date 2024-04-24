@@ -102,6 +102,8 @@ export const MapFrame = () => {
 
 >[!TIP]: This component is located in app/_components/map-frame.tsx
 
+Finally we are going to use our component in the server page we need it.
+
 ## Pages Router
 In your _app.tsx, you are going to add the 3D Showcase SDK, the same way we just did with App Router
 
@@ -114,4 +116,6 @@ __/pages/_app.tsx__ or wherever you need it.
 ## Documentation links
 
 [Matterport Docs](https://matterport.github.io/showcase-sdk/)
+[React](https://react.dev/learn)
+[NextJS](https://nextjs.org/docs/app/building-your-application/optimizing/scripts)
 
