@@ -121,14 +121,14 @@ Then, the Pages Router works differently from the App Router.
 By default, everything inside the Pages Directory will be considered a client component,   
 so we can simply copy and paste the implementation we have made for the client component from the App Router
 
-> [!NOTE] 
+>[!NOTE] 
 > Check the full code on pages/map.tsx
 
 __And well, that's basically it. Now you have set up Matterport in your Next.js app!__
 
 ## Documentation links
 
-[Matterport Docs](https://matterport.github.io/showcase-sdk/)
-[React](https://react.dev/learn)
+[Matterport](https://matterport.github.io/showcase-sdk/)  
+[React](https://react.dev/learn)  
 [NextJS](https://nextjs.org/docs/app/building-your-application/optimizing/scripts)
 
