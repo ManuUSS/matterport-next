@@ -32,7 +32,10 @@ __/app/layout.tsx__ or wherever you need it.
   </>
 ```
 
-Then, we are going to create a client component and set-up everything to connect with our matterport sdk
+Then, we are going to create a client component and set-up everything to connect with our matterport sdk.
+```
+
+```
 
 ## Pages Router
 In your _app.tsx, you are going to add the 3D Showcase SDK, the same way we just did with App Router
