@@ -110,8 +110,19 @@ In your _app.tsx, you are going to add the 3D Showcase SDK, the same way we just
 __/pages/_app.tsx__ or wherever you need it.
 
 ```
-
+  <>
+    <Component { ...pageProps } />
+    <Script src='https://static.matterport.com/showcase-sdk/latest.js' />
+  </>
 ```
+
+Then, the Pages Router works differently from the App Router.  
+By default, everything inside the Pages Directory will be considered a client component,   
+so we can simply copy and paste the implementation we have made for the client component from the App Router
+
+>[!INFORMATION]: Check the full code on pages/map.tsx
+
+__And well, that's basically it. Now you have set up Matterport in your Next.js app!__
 
 ## Documentation links
 
