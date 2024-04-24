@@ -100,7 +100,8 @@ export const MapFrame = () => {
 }
 ```
 
->[!TIP]: This component is located in app/_components/map-frame.tsx
+> [!NOTE] 
+> This component is located in app/_components/map-frame.tsx
 
 Finally we are going to use our component in the server page we need it.
 
@@ -120,7 +121,8 @@ Then, the Pages Router works differently from the App Router.
 By default, everything inside the Pages Directory will be considered a client component,   
 so we can simply copy and paste the implementation we have made for the client component from the App Router
 
->[!INFORMATION]: Check the full code on pages/map.tsx
+> [!NOTE] 
+> Check the full code on pages/map.tsx
 
 __And well, that's basically it. Now you have set up Matterport in your Next.js app!__
 
